@@ -439,6 +439,181 @@ ul {
   color: #36474f;
 }
 
+.owner_price {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.owner_price .owner {
+  width: 55%;
+  padding: 0 20px 0 0;
+  font-family: Cairo;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #36474f;
+}
+
+.owner_price .owner_AllPrice {
+  width: 45%;
+  margin: 0 auto;
+  padding: 0 20px 0 0;
+}
+
+.owner_price .owner_AllPrice p {
+  font-family: Cairo;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #36474f;
+}
+
+.owner_price .owner_AllPrice h2 {
+  font-family: Cairo;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #36474f;
+}
+
+.request_auction .request {
+  width: 370px;
+  height: Fixed (70px);
+  padding: 30px 15px;
+  margin: 30px auto;
+  border-radius: 20px;
+  gap: 8px;
+  background: linear-gradient(180deg, #5648c7 0%, #3f32a4 100%);
+  box-shadow: 0px 2px 5px 0px #2b1f8d1a;
+  box-shadow: 0px 0px 0px 1px #4133ab;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 0px 0px #7563ff inset;
+}
+
+.request_auction .request a {
+  font-family: Cairo;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
 /***********************************************************/
 /**************** End Congratulations Page *****************/
+/***********************************************************/
+/***********************************************************/
+/**************** Start Waiting_auction Page *****************/
+/***********************************************************/
+
+.Waiting_auction .Waiting {
+  width: 398px;
+  height: Fixed (60px);
+  padding: 15px;
+  margin: 30px auto;
+  border-radius: 10px;
+  gap: 8px;
+  background: #f1f5f9;
+  box-shadow: 0px 2px 5px 0px #f1f5f9;
+}
+
+.Waiting_auction .Waiting a {
+  font-family: Cairo;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #8d9498;
+}
+
+/***********************************************************/
+/**************** End Waiting_auction Page *****************/
+/***********************************************************/
+/***********************************************************/
+/********************* End Login Page **********************/
+/***********************************************************/
+.login {
+  height: 100vh;
+  padding: 90px 20px;
+}
+
+.login h2 {
+  font-family: Cairo;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #36474f;
+}
+
+.login p {
+  font-family: Cairo;
+  width: 90%;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #36474f;
+}
+
+.login input {
+  width: 398px;
+  height: Fixed (65px);
+  top: 259px;
+  left: 28px;
+  padding: 15px 25px 15px 27px;
+  border-radius: 12px;
+  gap: 10px;
+  outline: none;
+  border: none;
+  background: #f1f5f9;
+}
+
+.login button {
+  width: Fixed (350px);
+  height: Fixed (60px);
+  top: 359px;
+  left: 40px;
+  padding: 6px 12px 6px 12px;
+  border-radius: 40px;
+  gap: 8px;
+  background: linear-gradient(180deg, #5648c7 0%, #3f32a4 100%);
+}
+
+.entrance {
+  width: 398px;
+  height: Fixed (60px);
+  padding: 15px;
+  margin: 30px auto;
+  border-radius: 10px;
+  gap: 8px;
+  background: linear-gradient(180deg, #5648c7 0%, #3f32a4 100%);
+  box-shadow: 0px 2px 5px 0px #2b1f8d1a;
+  box-shadow: 0px 0px 0px 1px #4133ab;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 0px 0px #7563ff inset;
+}
+
+.entrance a,
+.entrance a:hover {
+  font-family: Cairo;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+
+/***********************************************************/
+/********************* End Login Page **********************/
 /***********************************************************/
