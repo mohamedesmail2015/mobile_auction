@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #6d7d93;
+  --main-transition: 0.3s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+  font-family: "Almarai", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background: #f1f3f4;
+  width: 450px !important;
+  padding: 10px;
+  margin: auto !important;
+  text-align: center !important;
+  justify-content: center !important;
+  box-shadow: 2px 2px 4px rgba(110, 99, 99, 0.3);
+  direction: rtl !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* End Global Rules */
+
+/* Start Cards_Auctions 1 */
+
+.card {
+  display: flex;
+  flex-wrap: nowrap !important;
+  text-align: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  border: 1px;
+  margin: 15px auto;
+  width: 100%;
+  padding: 10px;
+  background: #f1f5f9;
+  border: 1px solid #f1f5f9;
+}
+
+.title_auctions {
+  width: 50% !important;
+}
+
+.title_auctions h1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+  color: #36474f;
+}
+
+.title_auctions .time {
+  display: flex;
+  padding-top: 4px;
+}
+
+.title_auctions .time .parent {
+  position: relative;
+  padding: 0;
+  margin: 0 2px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #f1f5f9;
+}
+
+.title_auctions .time .child {
+  position: absolute;
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 8px);
+  width: 16px;
+  height: 16px;
+}
+
+.title_auctions .time p {
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 9px;
+  text-align: right;
+  color: #36474f;
+}
+
+.title_auctions .price {
+  width: 109px;
+  height: 44px;
+  border-radius: 8px;
+  background: #f1f5f9;
+  margin: 4px 10px auto;
+  text-align: center;
+  justify-content: center;
+  padding: 3px 10px 0;
+}
+
+.title_auctions .price p {
+  font-family: Cairo;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 34px;
+  color: #36474f;
+}
+
+.img_card {
+  width: 50% !important;
+}
+
+.img_card img {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+@media (max-width: 300px) {
+}
+
+/* End Cards_Auctions 1 */
+
+/* Start Header */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f7f7f9;
+  margin: 10px auto;
+  padding: 10px 15px 0;
+  border-radius: 35px;
+}
+
+.header a,
+.header a:hover {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  padding: 5px 7px;
+  text-align: center;
+  color: #36474f;
+}
+
+/* End Header */
+
+/***********************************************************/
+/***************** Start Add  Auction Page *****************/
+/***********************************************************/
+.banner {
+  margin: 30px auto 50px;
+  width: 399px;
+  height: 368px;
+  border-radius: 40px;
+  background-image: url(../imgs/rectangle.png);
+}
+
+.banner img {
+  margin-top: 340px;
+}
+
+/* add auctions */
+.add_auctions h1 {
+  font-family: Cairo;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #36474f;
+}
+
+/* auction Price */
+.auction_Price {
+  width: 398px;
+  height: 110px;
+  top: 556px;
+  left: 17px;
+  border-radius: 18px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  background: #f1f5f9;
+  border-radius: 18px;
+  padding: 20px 10px;
+  margin: 40px auto;
+}
+
+.auction_Price .auction_time {
+  display: flex !important;
+  margin-top: 20px;
+}
+
+.auction_Price .auction_time img {
+  width: 33px;
+  height: 33px;
+  padding: 5px;
+}
+
+.auction_Price .auction_time p {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: right;
+  color: #36474f;
+}
+
+.auction_Price .current_price {
+  display: block;
+}
+
+.auction_Price .current_price span {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: right !important;
+  color: #36474f;
+}
+
+.auction_Price .current_price h1 {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: right;
+  color: #36474f;
+}
+
+/* auction notes */
+.auction_notes {
+  width: 398px;
+  margin: auto;
+  text-align: start;
+  padding: 30px 20px 10px 20px;
+  border-radius: 18px;
+  background: #f1f5f9;
+}
+
+.auction_notes h1 {
+  font-family: Cairo;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: right;
+  color: #36474f;
+}
+
+.auction_notes p {
+  font-family: Cairo;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: right;
+  color: #36474f;
+}
+
+/* Product file */
+.Product_file {
+  height: 70px;
+  width: 398px;
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  border-radius: 18px;
+  background: #f1f5f9;
+}
+
+.Product_file h1 {
+  font-family: Cairo;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #36474f;
+  padding-top: 5px;
+}
+
+/* all notes */
+.all_notes {
+  width: 398px;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 18px;
+  background: #f1f5f9;
+}
+
+.all_notes .notes_people {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.all_notes .notes_people h1 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #36474f;
+  padding-top: 10px;
+}
+
+.people {
+  display: flex;
+}
+
+.people img {
+  width: 20px;
+  height: 20px;
+  margin: auto 10px auto 0;
+}
+
+.people p {
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 7px;
+}
+
+.people h4 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #36474f;
+}
+
+/* auction total */
+.auction_total .total h2 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  padding: 0 20px;
+  color: #36474f;
+}
+
+.auction_total .total p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+  padding: 0 20px;
+  color: #36474f;
+}
+
+/* Add auction */
+.Add_auction .Add {
+  width: 398px;
+  height: Fixed (60px);
+  padding: 15px;
+  margin: 30px auto;
+  border-radius: 40px;
+  gap: 8px;
+  background: linear-gradient(180deg, #5648c7 0%, #3f32a4 100%);
+  box-shadow: 0px 2px 5px 0px #2b1f8d1a;
+  box-shadow: 0px 0px 0px 1px #4133ab;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 0px 0px #7563ff inset;
+}
+
+.Add_auction .Add a {
+  font-family: Cairo;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+/***********************************************************/
+/****************** End Add  Auction Page ******************/
+/***********************************************************/
+/***********************************************************/
+/************* Start Recent transactions Page **************/
+/***********************************************************/
+
+.transactions h2 {
+  font-family: Cairo;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #36474f;
+}
+
+.transactions p {
+  width: 245px;
+  height: 59px;
+  margin: auto;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #36474f;
+}
+
+/***********************************************************/
+/************* End Recent transactions Page ****************/
+/***********************************************************/
+
+/***********************************************************/
+/*************** Start Congratulations Page ****************/
+/***********************************************************/
+
+.congratulations {
+  font-family: Cairo;
+  width: 398px;
+  height: 290px;
+  margin: auto;
+  border-radius: 18px;
+  background: #f5f3ff;
+}
+
+.congratulations .congratulations_title {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 23px;
+  letter-spacing: 0em;
+  padding: 20px;
+  text-align: right;
+  color: #36474f;
+}
+
+/***********************************************************/
+/**************** End Congratulations Page *****************/
+/***********************************************************/
