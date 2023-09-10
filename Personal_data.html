@@ -30,48 +30,39 @@
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
     <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
 
-    <title>Recent transactions</title>
+    <title>Personal Data</title>
   </head>
 
   <body>
-    <!-- Start Welcome -->
-    <section class="Welcome">
-      <h1>أهلاًوسهلاً, فهد</h1>
-      <ul class="list">
-        <li class="active"><a href="">الكل</a></li>
-        <li><a href="">سيارات</a></li>
-        <li><a href="">لوحات سيارات</a></li>
-        <li><a href="">أرقام</a></li>
-        <li><a href="">أخرى</a></li>
-      </ul>
-    </section>
-    <!-- End Welcome -->
-
-    <!-- لا يوجد معاملات حديثة -->
-    <section class="transactions">
-      <h2>لا يوجد معاملات حديثة</h2>
+    <section class="personalData">
+      <h2>البيانات الشخصية</h2>
       <p>
-        يبدو أنك لم تقم بأي معاملة. سيظهر هنا أشخاص الذين أرسلت إليهم أموالاً
-        مؤخراً.
+        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا
+        النص من مولد النص العربى،
       </p>
-    </section>
 
-    <!-- Start Header -->
-    <section expand="lg" class="header">
-      <div class="links">
-        <img src="imgs/home.png" alt="الرئيسية" />
-        <a href="index.html">الرئيسية</a>
+      <input class="mt-3" type="text" placeholder="الأسم الأول" />
+      <input class="mt-3" type="text" placeholder="الأسم الأخير" />
+      <input class="mt-3" type="text" placeholder="رقم الهوية" />
+      <input class="mt-3" type="text" placeholder="رقم الجوال" />
+      <div class="Type mt-3">
+        <div class="male">
+          <p>ذكر</p>
+        </div>
+        <div class="feminine">
+          <p>أنثى</p>
+        </div>
       </div>
-      <div class="links">
-        <img src="imgs/auctions.png" alt="مزاداتي" />
-        <a href="Auctions.html"> مزاداتي </a>
+
+      <div class="form-check">
+        <input type="checkbox" value="" id="flexCheckChecked" checked />
+        <span>أقر بأن بياناتي الشخصية صحيحة وإخلاء مسوولية التطبيق </span>
       </div>
-      <div class="links">
-        <img src="imgs/settings.png" alt="الإعدادات" />
-        <a href="">الإعدادات</a>
+
+      <div class="entrance">
+        <a href="#">حفظ</a>
       </div>
     </section>
-    <!-- End Header -->
 
     <script src="js/bootstrap.min.js"></script>
   </body>

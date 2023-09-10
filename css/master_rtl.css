@@ -42,8 +42,62 @@ ul {
 
 /* End Global Rules */
 
-/* Start Cards_Auctions 1 */
+/* Start Welcome */
+.Welcome h1 {
+  font-family: Cairo;
+  padding: 40px 0 30px;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #15113b;
+}
 
+.Welcome .list {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin: 15px auto;
+}
+
+.Welcome .list li {
+  width: Fixed (80px);
+  height: Fixed (60px);
+  top: 135px;
+  left: 335px;
+  padding: 10px 12px;
+  border-radius: 40px;
+  gap: 8px;
+  background: #f1f5f9;
+}
+
+.Welcome .list li.active {
+  background: linear-gradient(180deg, #5648c7 0%, #3f32a4 100%);
+  box-shadow: 0px 2px 5px 0px #2b1f8d1a;
+  box-shadow: 0px 0px 0px 1px #4133ab;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 0px 0px #7563ff inset;
+}
+
+.Welcome .list li a {
+  font-family: Cairo;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #36474f;
+  margin: 7px;
+}
+
+.Welcome .list li.active a {
+  color: #ffffff;
+}
+
+/* End Welcome */
+
+/* Start Cards_Auctions */
 .card {
   display: flex;
   flex-wrap: nowrap !important;
@@ -125,11 +179,8 @@ ul {
 }
 
 .img_card img {
-  height: 100% !important;
+  height: 174px;
   width: 100% !important;
-}
-
-@media (max-width: 300px) {
 }
 
 /* End Cards_Auctions 1 */
@@ -390,6 +441,11 @@ ul {
 /************* Start Recent transactions Page **************/
 /***********************************************************/
 
+.transactions {
+  padding-top: 150px;
+  height: calc(100vh - 265px);
+}
+
 .transactions h2 {
   font-family: Cairo;
   font-size: 20px;
@@ -541,8 +597,8 @@ ul {
 /********************* End Login Page **********************/
 /***********************************************************/
 .login {
-  height: 100vh;
-  padding: 90px 20px;
+  height: calc(100vh - 20px);
+  padding: 90px 15px;
 }
 
 .login h2 {
@@ -579,17 +635,6 @@ ul {
   background: #f1f5f9;
 }
 
-.login button {
-  width: Fixed (350px);
-  height: Fixed (60px);
-  top: 359px;
-  left: 40px;
-  padding: 6px 12px 6px 12px;
-  border-radius: 40px;
-  gap: 8px;
-  background: linear-gradient(180deg, #5648c7 0%, #3f32a4 100%);
-}
-
 .entrance {
   width: 398px;
   height: Fixed (60px);
@@ -616,4 +661,199 @@ ul {
 
 /***********************************************************/
 /********************* End Login Page **********************/
+/***********************************************************/
+
+/***********************************************************/
+/***************** Start Persona lData Page ****************/
+/***********************************************************/
+.personalData {
+  padding: 15px;
+}
+
+.personalData h2 {
+  font-family: Cairo;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #36474f;
+}
+
+.personalData p {
+  font-family: Cairo;
+  width: 90%;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #36474f;
+}
+
+.personalData input {
+  width: 398px;
+  height: Fixed (65px);
+  top: 259px;
+  left: 28px;
+  padding: 15px 25px 15px 27px;
+  border-radius: 12px;
+  gap: 10px;
+  outline: none;
+  border: none;
+  background: #f1f5f9;
+}
+
+.personalData .Type {
+  margin: 0;
+  padding-top: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.personalData .Type .male,
+.personalData .Type .feminine {
+  width: 170px;
+  height: 65px;
+  padding: 15px 25px;
+  border-radius: 12px;
+  background: #f1f5f9;
+}
+
+.personalData .Type .male {
+  border: 1px solid #4336aa;
+}
+
+.personalData .Type .male p,
+.personalData .Type .feminine p {
+  font-family: Cairo;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  padding-top: 5px;
+  text-align: center;
+  justify-content: center;
+  color: #4336aa;
+}
+
+.personalData button {
+  width: Fixed (350px);
+  height: Fixed (60px);
+  top: 359px;
+  left: 40px;
+  padding: 6px 12px 6px 12px;
+  border-radius: 40px;
+  gap: 8px;
+  background: linear-gradient(180deg, #5648c7 0%, #3f32a4 100%);
+}
+
+.personalData .form-check {
+  text-align: start;
+  padding: 0;
+  margin: 0;
+}
+
+.personalData .form-check input {
+  width: 20px !important;
+  height: 20px !important;
+  padding: 10px 0;
+  margin: 20px 0;
+  border-radius: 20px !important;
+}
+
+.personalData .form-check span {
+  font-family: Cairo;
+  margin: 6px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #8e9ca3;
+}
+
+.personalData textarea {
+  width: 100%;
+  height: 140px;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  background: #f1f5f9;
+}
+
+#add_advertisement {
+  height: 100vh;
+}
+
+/***********************************************************/
+/***************** End Personal Data Page ******************/
+/***********************************************************/
+/***********************************************************/
+/***************** Start Add Photos Page *******************/
+/***********************************************************/
+
+.add_img {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+.add_img .delete {
+  margin: 0 10px;
+  display: block;
+  width: 80px;
+  height: 80px;
+  top: 201px;
+  left: 231px;
+  border-radius: 5px;
+}
+
+.personal_data .list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin: 15px auto;
+}
+
+.personal_data .list li {
+  width: Fixed (80px);
+  height: Fixed (60px);
+  top: 135px;
+  left: 335px;
+  padding: 10px 12px;
+  border-radius: 40px;
+  margin: 8px;
+  background: #f1f5f9;
+}
+
+.personal_data .list li.active {
+  background: linear-gradient(180deg, #5648c7 0%, #3f32a4 100%);
+  box-shadow: 0px 2px 5px 0px #2b1f8d1a;
+  box-shadow: 0px 0px 0px 1px #4133ab;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 0px 0px #7563ff inset;
+}
+
+.personal_data .list li a {
+  font-family: Cairo;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #36474f;
+  margin: 7px;
+}
+
+.personal_data .list li.active a {
+  color: #ffffff;
+}
+
+/***********************************************************/
+/******************** End Add Photos Page ******************/
 /***********************************************************/
