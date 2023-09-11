@@ -795,11 +795,23 @@ ul {
 /***********************************************************/
 /***************** Start Add Photos Page *******************/
 /***********************************************************/
+.add-photos {
+  min-height: 100vh;
+}
 
 .add_img {
   display: flex;
   margin: 10px;
   padding: 10px;
+}
+
+.add_img input {
+  outline: none;
+  border: none;
+  width: 80px;
+  height: 80px;
+  padding: 25px 0;
+  background: #f1f5f9;
 }
 
 .add_img .delete {
@@ -856,4 +868,472 @@ ul {
 
 /***********************************************************/
 /******************** End Add Photos Page ******************/
+/***********************************************************/
+/***********************************************************/
+/******************* Start Fee amount Page *****************/
+/***********************************************************/
+.auction_fees {
+  width: 95%;
+  padding: 20px;
+  margin: auto;
+  border-radius: 8px;
+  background: #f1f5f9;
+}
+
+.auction_fees h2 {
+  font-family: Cairo;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #36474f;
+}
+
+.auction_fees p {
+  font-family: Cairo;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #36474f;
+}
+
+.auction_fee_amount {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.auction_fee_amount p {
+  font-family: Cairo;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #9ca8ae;
+}
+
+.auction_fees h5 {
+  font-family: Cairo;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: start;
+  color: #36474f;
+}
+
+.payment_bay {
+  padding: 15px;
+  margin: 30px auto;
+  width: 95%;
+  height: 60px;
+  top: 465px;
+  left: 27px;
+  border-radius: 50px;
+  background: #000000;
+}
+
+.payment_bay a span {
+  font-family: Cairo;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #ffffff;
+}
+
+.payment_bay a img {
+  margin: 0 5px;
+}
+
+.payment_visa {
+  padding: 15px 22px;
+  margin: 30px auto;
+  width: 95%;
+  height: 60px;
+  text-align: start;
+  border-radius: 50px;
+  background: #f1f5f9;
+  border: 1px solid #4133ab;
+}
+
+.payment_visa a span {
+  font-family: Cairo;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: start;
+  color: #36474f;
+}
+
+.payment_bay a img {
+  margin: 0 5px;
+}
+
+.payment_mdy {
+  padding: 15px 22px;
+  margin: 30px auto;
+  width: 95%;
+  height: 60px;
+  text-align: start;
+  border-radius: 50px;
+  background: #f1f5f9;
+}
+
+.payment_mdy a span {
+  font-family: Cairo;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: start;
+  color: #36474f;
+}
+
+.payment_mdy a img {
+  margin: 0 5px;
+}
+
+.payment {
+  width: 250px;
+  height: 60px;
+  margin: 50px auto;
+  padding: 15px;
+  border-radius: 40px;
+  gap: 8px;
+  background: linear-gradient(180deg, #5648c7 0%, #3f32a4 100%);
+  box-shadow: 0px 2px 5px 0px #2b1f8d1a;
+  box-shadow: 0px 0px 0px 1px #4133ab;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 0px 0px #7563ff inset;
+}
+
+.payment a,
+.payment a:hover {
+  font-family: Cairo;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  padding: 20px 70px;
+  color: #ffffff;
+}
+
+/***********************************************************/
+/******************** End Fee amount Page ******************/
+/***********************************************************/
+/***********************************************************/
+/************** Start Payment Successfully Page ************/
+/***********************************************************/
+
+.payment_successfully {
+  height: 100vh;
+  padding-top: calc(100vh / 4);
+  text-align: center;
+  justify-content: center;
+}
+
+.payment_successfully h2 {
+  font-family: Cairo;
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #36474f;
+}
+
+.payment_successfully p {
+  font-family: Cairo;
+  width: 60%;
+  margin: auto;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #36474f;
+}
+
+.payment_successfully h5 {
+  font-family: Cairo;
+  padding-top: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #36474f;
+}
+
+/***********************************************************/
+/*************** End Payment Successfully Page *************/
+/***********************************************************/
+
+/***********************************************************/
+/***************** Start Contact Request Page **************/
+/***********************************************************/
+
+.contact_request {
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+  border-radius: 8px;
+  background: #f5f3ff;
+}
+
+.contact_request h2 {
+  font-family: Cairo;
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #36474f;
+}
+
+.contact_owner_item {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.contact_owner_item .owner_item {
+  width: 179px;
+  height: 67px;
+  top: 136px;
+  left: 208px;
+}
+.contact_owner_item .owner_item p {
+  font-family: Cairo;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #36474f;
+}
+
+.contact_owner_item .last_price {
+  margin: 0;
+  padding: 0;
+}
+
+.contact_owner_item .last_price p {
+  font-family: Cairo;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #36474f;
+  margin: 0;
+  padding: 0;
+}
+
+.contact_owner_item .last_price h2 {
+  font-family: Cairo;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #36474f;
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+}
+
+.owner_contact_request {
+  width: 100%;
+  height: Fixed (60px);
+  margin: 44px auto 10px;
+  padding: 20px;
+  border-radius: 12px;
+  gap: 8px;
+  background: linear-gradient(180deg, #5648c7 0%, #3f32a4 100%);
+  box-shadow: 0px 2px 5px 0px #2b1f8d1a;
+  box-shadow: 0px 0px 0px 1px #4133ab;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 0px 0px #7563ff inset;
+}
+
+.owner_contact_request a,
+.owner_contact_request a:hover {
+  font-family: Cairo;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  padding: 20px 70px;
+  color: #ffffff;
+}
+
+.wait_owner {
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+  border-radius: 8px;
+  background: #f1f5f9;
+}
+
+.wait_owner h2 {
+  font-family: Cairo;
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #36474f;
+}
+
+.owner_accept_request {
+  width: 100%;
+  height: Fixed (60px);
+  margin: 44px auto 10px;
+  padding: 20px;
+  border-radius: 12px;
+  border: 0.5px solid #8d9498;
+}
+
+.owner_accept_request a,
+.owner_accept_request a:hover {
+  font-family: Cairo;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8d9498;
+}
+
+.accept_reject {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.accept_reject .accept {
+  width: 161px;
+  height: 60px;
+  padding: 12px;
+  margin: 20px 0;
+  border-radius: 12px;
+  border: 0.5px;
+  gap: 8px;
+  background: linear-gradient(0deg, #42cd7c, #42cd7c),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  border: 0.5px solid #ffffff;
+}
+
+.accept_reject .accept a,
+.accept_reject .accept a:hover {
+  font-family: Cairo;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.accept_reject .reject {
+  width: 161px;
+  height: 60px;
+  margin: 20px 0;
+  padding: 12px;
+  border-radius: 12px;
+  border: 0.5px;
+  gap: 8px;
+  background: linear-gradient(0deg, #ea4335, #ea4335),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  border: 0.5px solid #ffffff;
+}
+
+.accept_reject .reject a,
+.accept_reject .reject a:hover {
+  font-family: Cairo;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+/***********************************************************/
+/***************** End Contact Request Page  ***************/
+/***********************************************************/
+/***********************************************************/
+/***************** Start Open Finished Page  ***************/
+/***********************************************************/
+
+.Welcome h1 {
+  font-family: Cairo;
+  padding: 40px 0 30px;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #15113b;
+}
+
+.Welcome .list {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin: 15px auto;
+}
+
+.Welcome .list .open {
+  width: 190px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 40px;
+  box-shadow: 0px 2px 5px 0px #2b1f8d1a;
+  box-shadow: 0px 0px 0px 1px #4133ab;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 0px 0px #7563ff inset;
+  background: linear-gradient(180deg, #5648c7 0%, #3f32a4 100%);
+}
+
+.Welcome .list .open a {
+  font-family: Cairo;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.Welcome .list .finished {
+  width: 190px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 40px;
+  background: #f1f5f9;
+}
+
+.Welcome .list .finished a {
+  font-family: Cairo;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #36474f;
+}
+
+/***********************************************************/
+/***************** End Open Finished Page  *****************/
 /***********************************************************/
